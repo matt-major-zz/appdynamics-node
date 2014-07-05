@@ -12,7 +12,7 @@ Create a new instance of the AppDynamics module and pass in the parameters as sh
 
 The outputType can be either ```XML``` OR ```JSON```.
 
-```
+```js
 var AppDynamics = require('appdynamics-node'),
     client = new AppDynamics({
         url: 'xxxx',
@@ -24,7 +24,7 @@ var AppDynamics = require('appdynamics-node'),
 ```
 
 **Example - Return All AppDynamics Applications**
-```
+```js
 client.getAllApplications(function(err, response) {
     console.log(response);
 });
