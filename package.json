@@ -1,0 +1,34 @@
+{
+    "name": "appdynamics-node",
+    "version": "0.0.1",
+    "description": "Node.js Wrapper for AppDynamics API",
+    "author": "Matt Major",
+    "homepage": "https://github.com/matt-major/appdynamics-node",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/matt-major/appdynamics-node.git"
+    },
+    "main": "./lib/appdynamics-node.js",
+    "dependencies": {
+        "request": "latest",
+        "xtend": "latest"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": ""
+        }
+    ],
+    "bugs": {
+        "url": "https://github.com/matt-major/appdynamics-node/issues"
+    },
+    "keywords": [
+        "appdynamics",
+        "app dynamics",
+        "REST",
+        "api",
+        "node",
+        "javascript",
+        "wrapper"
+    ]
+}
