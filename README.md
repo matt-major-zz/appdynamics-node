@@ -1,8 +1,9 @@
 appdynamics-node
 ==========
-Node.js Wrapper for AppDynamics API
+Node.js Wrapper for AppDynamics REST API.
 
 If you spot any mistakes or have any suggestions, please raise an issue here:
+
 https://github.com/matt-major/appdynamics-node/issues
 
 ## Usage
@@ -25,17 +26,27 @@ var AppDynamics = require('appdynamics-node'),
 
 **Example - Return All AppDynamics Applications**
 ```js
-client.getAllApplications(function(err, response) {
+client.applicationsGetAll(function(err, response) {
     console.log(response);
 });
 ```
 
 ## Available Methods
+#### General
 ```js
-getAllApplications(callback)
+applicationsGetAll(callback)
+businessTransactionsGetAll(applicationName, callback)
 ```
+#### Nodes
 ```js
-getBusinessTransactionsForApplication(applicationName, callback)
+nodesGetAll(applicationName, callback)
+nodesGetByName(applicationName, nodeName, callback)
+nodesGetByTier(applicationName, tierName, callback)
+```
+#### Tiers
+```js
+tiersGetAll(applicationName, callback)
+tiersGetByName(applicationName, tierName, callback)
 ```
 
 ##License
