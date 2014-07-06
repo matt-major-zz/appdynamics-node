@@ -1,7 +1,7 @@
 {
     "name": "appdynamics-node",
-    "version": "0.0.1",
-    "description": "Node.js Wrapper for AppDynamics API",
+    "version": "0.0.2",
+    "description": "Node.js Wrapper for AppDynamics REST API",
     "author": "Matt Major",
     "homepage": "https://github.com/matt-major/appdynamics-node",
     "repository": {

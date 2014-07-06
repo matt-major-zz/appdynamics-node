@@ -6,6 +6,13 @@ If you spot any mistakes or have any suggestions, please raise an issue here:
 
 https://github.com/matt-major/appdynamics-node/issues
 
+## Install
+You can install ```appdynamics-node``` via npm.
+
+```
+npm install appdynamics-node
+```
+
 ## Usage
 To use the wrapper, require it within the module or application you're building.
 
