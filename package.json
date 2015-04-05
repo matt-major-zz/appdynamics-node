@@ -1,34 +1,30 @@
 {
-    "name": "appdynamics-node",
-    "version": "0.0.2",
-    "description": "Node.js Wrapper for AppDynamics REST API",
-    "author": "Matt Major",
-    "homepage": "https://github.com/matt-major/appdynamics-node",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/matt-major/appdynamics-node.git"
-    },
-    "main": "./lib/appdynamics-node.js",
-    "dependencies": {
-        "request": "latest",
-        "xtend": "latest"
-    },
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": ""
-        }
-    ],
-    "bugs": {
-        "url": "https://github.com/matt-major/appdynamics-node/issues"
-    },
-    "keywords": [
-        "appdynamics",
-        "app dynamics",
-        "REST",
-        "api",
-        "node",
-        "javascript",
-        "wrapper"
-    ]
+  "name": "appdynamics-node",
+  "version": "0.1.0",
+  "description": "A Node.js wrapper for the AppDynamics RESTful API",
+  "main": "./lib/appdynamics-node.js",
+  "scripts": {
+    "lint": "jshint lib/*.js"
+  },
+  "author": "Matt Major",
+  "homepage": "https://github.com/matt-major/appdynamics-node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matt-major/appdynamics-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matt-major/appdynamics-node/issues"
+  },
+  "dependencies": {
+    "request": "2.55.0",
+    "xtend": "4.0.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "appdynamics",
+    "wrapper",
+    "api",
+    "node",
+    "restful"
+  ]
 }

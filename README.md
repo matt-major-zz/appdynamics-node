@@ -1,19 +1,19 @@
-appdynamics-node
-==========
-Node.js Wrapper for AppDynamics REST API.
+# appdynamics-node
 
-If you spot any mistakes or have any suggestions, please raise an issue here:
+[![Build Status](https://travis-ci.org/matt-major/appdynamics-node.svg?branch=master)](https://travis-ci.org/matt-major/appdynamics-node)
+[![Dependencies](https://david-dm.org/matt-major/appdynamics-node.svg)](https://www.npmjs.com/package/appdynamics-node)
+[![npm](https://img.shields.io/npm/dm/appdynamics-node.svg)](https://www.npmjs.com/package/appdynamics-node)
 
-https://github.com/matt-major/appdynamics-node/issues
+A Node.js Wrapper for the AppDynamics RESTful API.
 
-## Install
-You can install ```appdynamics-node``` via npm.
+### Install
+You can install ```appdynamics-node``` via ```npm``` using the command below.
 
+```bash
+$ npm install --save appdynamics-node
 ```
-npm install appdynamics-node
-```
 
-## Usage
+### Usage
 To use the wrapper, require it within the module or application you're building.
 
 Create a new instance of the AppDynamics module and pass in the parameters as shown below.
@@ -56,10 +56,20 @@ tiersGetAll(applicationName, callback)
 tiersGetByName(applicationName, tierName, callback)
 ```
 
+### Contributing
+
+Feel free to make changes and submit a PR. I will be expanding this project over time.
+
+Please ensure that your code conforms to the ```jshint``` file provided.
+
+### Issues?
+
+Please raise an issue on GitHub with as much information as possible and the steps to replicate (if possible).
+
 ##License
 The MIT License (MIT)
 
-Copyright (c) 2014 Matt Major
+Copyright (c) 2015 Matt Major
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
